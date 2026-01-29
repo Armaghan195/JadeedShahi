@@ -2,7 +2,7 @@
 
 **Jadeed Shahi** is a premium web presence for a leading technical services provider in Dubai. This website showcases expert home maintenance solutions, ranging from electrical and plumbing works to deep cleaning and renovations. 
 
-🔗 **Live Website**: [Link to live site if applicable]
+🔗 **Live Website**: https://armaghan195.github.io/JadeedShahi/
 
 ![Jadeed Shahi Hero Section](assets/about_hero_bg.png)
 
