@@ -55,12 +55,5 @@ JadeedShahi/
 | **Text White** | `#ffffff` | Headings, Primary Text |
 | **Text Light** | `#b0b3c2` | Body Text |
 
-## 🤝 Contact & Support
 
-For maintenance requests or inquiries:
-*   **Phone**: +971 52 469 6014
-*   **WhatsApp**: [+971 55 744 4893](https://wa.me/971557444893)
-*   **Email**: info@jadeedshahi.com
-
----
 *Designed & Developed by Novanex.*
