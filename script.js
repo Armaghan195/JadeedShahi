@@ -18,9 +18,23 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Mobile Menu Toggle
     const mobileBtn = document.querySelector('.mobile-menu-btn');
-    if (mobileBtn) {
+    const navbar = document.querySelector('.navbar');
+
+    if (mobileBtn && navbar) {
         mobileBtn.addEventListener('click', () => {
-            alert('Mobile menu clicked - specific styling would be added here.');
+            navbar.classList.toggle('active');
+
+            // Toggle Icon
+            const icon = mobileBtn.querySelector('i');
+            if (icon) {
+                if (navbar.classList.contains('active')) {
+                    icon.classList.remove('fa-bars');
+                    icon.classList.add('fa-times');
+                } else {
+                    icon.classList.remove('fa-times');
+                    icon.classList.add('fa-bars');
+                }
+            }
         });
     }
 
@@ -28,11 +42,11 @@ document.addEventListener('DOMContentLoaded', () => {
     const header = document.querySelector('.header');
     window.addEventListener('scroll', () => {
         if (window.scrollY > 50) {
-            header.style.boxShadow = '0 10px 30px rgba(0,0,0,0.5)';
-            header.style.background = 'rgba(11, 13, 23, 0.98)';
+            header.style.boxShadow = '0 10px 30px rgba(0,0,0,0.1)';
+            header.style.background = 'rgba(248, 250, 252, 0.98)';
         } else {
             header.style.boxShadow = 'none';
-            header.style.background = 'rgba(11, 13, 23, 0.95)';
+            header.style.background = 'rgba(248, 250, 252, 0.95)';
         }
     });
 
