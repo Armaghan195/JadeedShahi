@@ -2,7 +2,7 @@
 
 **Jadeed Shahi** is a premium web presence for a leading technical services provider in Dubai. This website showcases expert home maintenance solutions, featuring a modern, multi-page experience for their core services.
 
-🔗 **Live Website**: [Link to live site if applicable]
+🔗 **Live Website**: https://armaghan195.github.io/JadeedShahi/
 
 ![Jadeed Shahi Hero Section](assets/hero_isometric_fixed_bg.png)
 
@@ -55,7 +55,6 @@ JadeedShahi/
 | **Slate White** | `#F8FAFC` | Page Backgrounds |
 | **Card BG** | `#F1F5F9` | Service Cards |
 
-## 🤝 Contact & Support
 
 For maintenance requests or inquiries:
 *   **Phone**: +971 52 469 6014
